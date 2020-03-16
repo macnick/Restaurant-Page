@@ -1,10 +1,9 @@
 linters:
-    flake8:
-    eslint:
-        config: './eslint.config'
-    csslint:
+  eslint:
+    config: './.eslintrc.json'
 
 files:
-    ignore:
-        - 'src/generated/*'
-        - 'webroot/bower_components/*'
+  ignore:
+      - 'dist/*'
+      
+# find full documentation here: https://stickler-ci.com/docs
