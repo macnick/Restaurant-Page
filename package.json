@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Javascript generated site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macnick/Restaurant-Page.git"
+  },
+  "keywords": [
+    "restaurant",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Nick Haralampopoulos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macnick/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/macnick/Restaurant-Page#readme"
+}
