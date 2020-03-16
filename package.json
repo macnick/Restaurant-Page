@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/macnick/Restaurant-Page/issues"
   },
-  "homepage": "https://github.com/macnick/Restaurant-Page#readme"
+  "homepage": "https://github.com/macnick/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
