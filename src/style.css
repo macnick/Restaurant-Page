@@ -1,9 +1,14 @@
 body {
-  background-color: #fec;
+  background-color: transparent;
+  background-image: url(./img/backgrnd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 .nav-wrapper {
   padding: 0 30px;
 }
-.sidenav-trigger {
+.dropdown-trigger {
   display: none;
 }
