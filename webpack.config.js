@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 // const HtmlWebpackPlugin = require('html-webpack-plugin');
 // const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
@@ -6,12 +7,12 @@ module.exports = {
   entry: {
     app: './src/index.js'
   },
-  // plugins: [
-  //   new CleanWebpackPlugin(),
-  //   new HtmlWebpackPlugin({
-  //     title: 'Output Management',
-  //   }),
-  // ],
+  plugins: [
+    // new CleanWebpackPlugin(),
+    // new HtmlWebpackPlugin({
+    //   title: 'Output Management'
+    // })
+  ],
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist')
@@ -25,6 +26,10 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: ['file-loader']
+      },
+      {
+        test: /\.exec\.js$/,
+        use: ['script-loader']
       }
       //     {
       //       test: /\.(woff|woff2|eot|ttf|otf)$/,

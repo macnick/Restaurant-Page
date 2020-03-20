@@ -3,9 +3,8 @@ import '../node_modules/materialize-css/dist/js/materialize.min.js';
 import './style.css';
 
 document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.dropdown');
-  console.log(elems);
-  // var instances = M.Dropdown.init(elems, options);
+  var elems = document.querySelectorAll('.sidenav');
+  var instances = M.Sidenav.init(elems, {});
 });
 
-console.log('Here will be my content new');
+console.log('Here will be my content new w/o jquery');
