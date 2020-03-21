@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'LogoFont';
+  src: url(./fonts/MetroScriptRegular.woff) format('woff');
+}
+@font-face {
+  font-family: 'TextFont';
+  src: url(./fonts/Blak-W00-Regular.woff) format('woff');
+}
+
 body {
   background-color: transparent;
   background-image: url(./img/backgrnd.jpg);
@@ -11,4 +20,15 @@ body {
 }
 .dropdown-trigger {
   display: none;
+}
+.brand-logo {
+  font-family: TextFont;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4px 30px;
+  border-radius: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.2em;
 }
