@@ -5,32 +5,18 @@ import './modules/navbar';
 import navBar from './modules/navbar';
 import sidenav from './modules/sidenav';
 import main from './modules/main';
+import footer from './modules/footer';
 
 function insertAfter(referenceNode, newNode) {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
-
+let mainHolder = main;
 let content = document.getElementById('content');
 // let mobile = document.getElementById('mobile-demo');
 content.appendChild(navBar);
 
-insertAfter(content, main);
+insertAfter(content, footer);
+insertAfter(content, mainHolder);
 insertAfter(content, sidenav);
 
-document.addEventListener('DOMContentLoaded', function() {
-  var elems = document.querySelectorAll('.sidenav');
-  var options = {
-    edge: 'left',
-    draggable: false,
-    inDuration: 250,
-    outDuration: 200,
-    onOpenStart: null,
-    onOpenEnd: null,
-    onCloseStart: null,
-    onCloseEnd: null,
-    preventScrolling: true
-  };
-  var instances = M.Sidenav.init(elems, options);
-});
-
-console.log('Here will be my content new jquery');
+console.log('Here will be my content new');

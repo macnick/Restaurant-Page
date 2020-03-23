@@ -10,4 +10,20 @@ ul.innerHTML = `<li><a href="https://apple.com">Home</a></li>
 
 sidenav.appendChild(ul);
 
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var options = {
+    edge: 'left',
+    draggable: false,
+    inDuration: 250,
+    outDuration: 200,
+    onOpenStart: null,
+    onOpenEnd: null,
+    onCloseStart: null,
+    onCloseEnd: null,
+    preventScrolling: true
+  };
+  var instances = M.Sidenav.init(elems, options);
+});
+
 export default sidenav;
