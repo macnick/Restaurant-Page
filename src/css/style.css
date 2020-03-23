@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'LogoFont';
-  src: url(./fonts/MetroScriptRegular.woff) format('woff');
+  src: url(../fonts/MetroScriptRegular.woff) format('woff');
 }
 @font-face {
   font-family: 'TextFont';
-  src: url(./fonts/Blak-W00-Regular.woff) format('woff');
+  src: url(../fonts/Blak-W00-Regular.woff) format('woff');
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   flex-direction: column;
   background-color: transparent;
-  background-image: url(./img/backgrnd.jpg);
+  background-image: url(../img/backgrnd.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
