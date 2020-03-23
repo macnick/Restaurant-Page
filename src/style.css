@@ -8,12 +8,18 @@
 }
 
 body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
   background-color: transparent;
   background-image: url(./img/backgrnd.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+main {
+  flex: 1 0 auto;
 }
 .nav-wrapper {
   padding: 0 30px;
@@ -25,9 +31,9 @@ body {
   font-family: TextFont;
 }
 .container {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
   padding: 4px 30px;
-  border-radius: 7px;
+  border-radius: 8px;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 1.2em;
