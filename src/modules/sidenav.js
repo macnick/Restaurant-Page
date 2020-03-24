@@ -10,20 +10,6 @@ ul.innerHTML = `<li id="home-side"><a class="sidenav-close" href="#">Home</a></l
 
 sidenav.appendChild(ul);
 
-document.addEventListener('DOMContentLoaded', () => {
-  // const elems = document.querySelectorAll('.sidenav');
-  // const options = {
-  //   edge: 'left',
-  //   draggable: false,
-  //   inDuration: 250,
-  //   outDuration: 200,
-  //   onOpenStart: null,
-  //   onOpenEnd: null,
-  //   onCloseStart: null,
-  //   onCloseEnd: null,
-  //   preventScrolling: true,
-  // };
-  // const instances = M.Sidenav.init(elems, options);
-});
+document.addEventListener('DOMContentLoaded', () => { });
 
 export default sidenav;
