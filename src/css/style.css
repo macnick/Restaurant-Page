@@ -1,10 +1,15 @@
+@import url(//db.onlinewebfonts.com/c/b8b7120421e2c259f500f6953050107e?family=Zapf);
+
 @font-face {
-  font-family: 'LogoFont';
-  src: url(../fonts/MetroScriptRegular.woff) format('woff');
+  font-family: 'Zapf';
+  src: url('//db.onlinewebfonts.com/t/b8b7120421e2c259f500f6953050107e.eot');
+  src: url('//db.onlinewebfonts.com/t/b8b7120421e2c259f500f6953050107e.woff2')
+    format('woff2');
 }
 @font-face {
   font-family: 'TextFont';
   src: url(../fonts/Blak-W00-Regular.woff) format('woff');
+  font-style: normal;
 }
 
 body {
@@ -34,7 +39,11 @@ main {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 4px 30px;
   border-radius: 8px;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Zapf;
   color: #fff;
   font-size: 1.2em;
 }
+/* #contactus > div {
+  font-family: Zapf;
+} */
