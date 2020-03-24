@@ -1,12 +1,9 @@
 import '../node_modules/materialize-css/dist/css/materialize.min.css';
 import '../node_modules/materialize-css/dist/js/materialize.min.js';
 import './css/style.css';
-// // import navBar from './modules/navbar';
-// import sidenav from './modules/sidenav';
 import createMain from './modules/main';
 import createMenu from './modules/menu';
 import createContact from './modules/contact';
-// import footer from './modules/footer';
 import { createPage, insertAfter } from './modules/createPage';
 
 const updatePage = event => {
@@ -33,3 +30,6 @@ createPage();
 document.getElementById('home').addEventListener('click', updatePage);
 document.getElementById('menu').addEventListener('click', updatePage);
 document.getElementById('contact').addEventListener('click', updatePage);
+document.getElementById('home-side').addEventListener('click', updatePage);
+document.getElementById('menu-side').addEventListener('click', updatePage);
+document.getElementById('contact-side').addEventListener('click', updatePage);
