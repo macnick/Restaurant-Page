@@ -9,12 +9,11 @@ const insertAfter = (referenceNode, newNode) => {
   referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 };
 
-let main = createMain();
+const main = createMain();
 
 const createPage = (mainHolder = main) => {
-  let content = document.getElementById('content');
+  const content = document.getElementById('content');
 
-  console.log('create page run');
   content.appendChild(navBar);
 
   insertAfter(content, footer);
@@ -22,21 +21,22 @@ const createPage = (mainHolder = main) => {
   insertAfter(content, sidenav);
 };
 
-const updatePage = event => {
+const updatePage = (event) => {
+  /* eslint-disable no-param-reassign */
   event = event || window.event;
-  let target = event.target || event.srcElement,
-    text = target.textContent || target.innerText,
-    sections = ['main', 'our-menu', 'contactus'];
+  const target = event.target || event.srcElement;
+  const text = target.textContent || target.innerText;
+  const sections = ['main', 'our-menu', 'contactus'];
 
-  sections.forEach(s => {
+  sections.forEach((s) => {
     if (document.getElementById(s) != null) document.getElementById(s).remove();
   });
 
-  let m = document.getElementById('mobile-demo');
-  let choices = {
+  const m = document.getElementById('mobile-demo');
+  const choices = {
     Home: () => insertAfter(m, createMain()),
     Menu: () => insertAfter(m, createMenu()),
-    Contact: () => insertAfter(m, createContact())
+    Contact: () => insertAfter(m, createContact()),
   };
 
   choices[text]();

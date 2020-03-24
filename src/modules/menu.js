@@ -1,5 +1,3 @@
-import createMain from './main';
-
 const createMenu = () => {
   const m = document.createElement('main');
 
