@@ -9,9 +9,9 @@ nav.innerHTML = `<div class="nav-wrapper">
   ><i class="material-icons">menu</i></a
 >
 <ul class="right hide-on-med-and-down">
-  <li><a href="https://apple.com">Home</a></li>
-  <li><a href="#">Menu</a></li>
-  <li><a href="#">Contact</a></li>
+  <li id="home"><a href="#">Home</a></li>
+  <li id="menu"><a href="#">Menu</a></li>
+  <li id="contact"><a href="#">Contact</a></li>
 </ul>
 </div>`;
 
