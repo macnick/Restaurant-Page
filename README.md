@@ -24,22 +24,43 @@ In this project we create a reastaurant page. The objective is to dynamically re
 ## Built With
 
 - HTML
-    - HTML5 semantic elements
+  - HTML5 semantic elements
 - CSS3
-- Materialize.css
+  - Materialize front-end framework 
+- Dev Tools
+  - npm
+  - Webpack
+- Linter
+  - Eslint
 - Javascript
+- DOM Manipulation
+- DocumentFragment
+- Events
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/addod19/BookStoreLibrary/library/index.html)
+[Live Demo Link](https://#)
 
+## Dependencies
+
+- css-loader: ^3.4.2,
+- eslint: ^6.8.0,
+- eslint-config-airbnb-base: ^14.1.0,
+- eslint-plugin-import: ^2.20.1,
+- file-loader: ^6.0.0,
+- materialize-css: ^1.0.0-rc.2,
+- script-loader: ^0.7.2,
+- style-loader: ^1.1.3,
+- webpack: ^4.42.0,
+- webpack-cli: ^3.3.11
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps.
 
-1. ``` git clone https://github.com/addod19/BookStoreLibrary.git ```
-2. Open the project with your favorite browser
+1. Clone the project 
+``` git clone https://github.com/macnick/Restaurant-Page.git ```
+2. 
 3. Enjoy the beauty of the project
 
 ### Prerequisites
@@ -50,12 +71,6 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@addod19](https://github.com/addod19)
-- Twitter: [@DanielLarbiAdd1](https://twitter.com/DanielLarbiAdd1)
-- Linkedin: [Daniel Larbi Addo](https://linkedin.com/in/daniel-larbi-addo-9738b0128/)
-
-👤 **Author2**
-
 - Github: [@macnick](https://github.com/macnick)
 - Twitter: [@mac_experts](https://twitter.com/mac_experts)
 - Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos-26a55412a/)
@@ -63,7 +78,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/addod19/BookStoreLibrary/issues).
+Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/issues).
 
 
 1. Fork it (https://github.com/addod19/BookStoreLibrary/fork)
