@@ -60,12 +60,12 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone the project 
 ``` git clone https://github.com/macnick/Restaurant-Page.git ```
-2. 
-3. Enjoy the beauty of the project
+2. Install dependencies ``` npm install ```
+3. Run script (Production Mode) ``` npm run build ```
 
 ### Prerequisites
 
-- A modern browser
+- npm 6.14.2
 
 ## Authors
 
@@ -81,7 +81,7 @@ Contributions, issues and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/issues).
 
 
-1. Fork it (https://github.com/addod19/BookStoreLibrary/fork)
+1. Fork it (https://github.com/macnick/Restaurant-Page/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -90,12 +90,6 @@ Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
