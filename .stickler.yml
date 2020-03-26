@@ -1,0 +1,10 @@
+linters:
+  eslint:
+    config: './.eslintrc.json'
+
+files:
+  ignore:
+      - 'dist/*'
+      - 'src/*'
+      
+# find full documentation here: https://stickler-ci.com/docs
