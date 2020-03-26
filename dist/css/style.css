@@ -1,0 +1,46 @@
+@import url(//db.onlinewebfonts.com/c/b8b7120421e2c259f500f6953050107e?family=Zapf);
+
+@font-face {
+  font-family: 'Zapf';
+  src: url('//db.onlinewebfonts.com/t/b8b7120421e2c259f500f6953050107e.eot');
+  src: url('//db.onlinewebfonts.com/t/b8b7120421e2c259f500f6953050107e.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'TextFont';
+  src: url(../fonts/Blak-W00-Regular.woff) format('woff');
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: transparent;
+  background-image: url(../img/backgrnd.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+main {
+  flex: 1 0 auto;
+}
+.nav-wrapper {
+  padding: 0 30px;
+}
+.dropdown-trigger {
+  display: none;
+}
+.brand-logo {
+  font-family: TextFont;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 4px 30px;
+  border-radius: 8px;
+  font-family: Zapf;
+  color: #fff;
+  font-size: 1.2em;
+}
+
