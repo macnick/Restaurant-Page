@@ -39,7 +39,7 @@ In this project we have to create a restaurant page. The objective is to dynamic
 
 ## Live Demo
 
-[Live Demo Link](https://macnick.github.io/Restaurant-Page/dist/index.html)
+[Live Demo Link](https://macnick.github.io/Restaurant-Page/)
 
 ## Dependencies
 
