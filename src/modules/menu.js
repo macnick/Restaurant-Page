@@ -10,7 +10,7 @@ const createMenu = () => {
     <div class="col s12 m6 l4">
       <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="../dist/img/pic1.jpg">
+          <img class="activator" src="./img/pic1.jpg">
         </div>
         <div class="card-content">
           <span class="black-text">Food $22,90</span>
@@ -21,7 +21,7 @@ const createMenu = () => {
     <div class="col s12 m6 l4">
       <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="../dist/img/pic2.jpg">
+          <img class="activator" src="./img/pic2.jpg">
         </div>
         <div class="card-content">
           <span class="black-text">Food $25,90</span>
@@ -32,7 +32,7 @@ const createMenu = () => {
     <div class="col s12 m6 l4">
       <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="../dist/img/pic3.jpg">
+          <img class="activator" src="./img/pic3.jpg">
         </div>
         <div class="card-content">
         <span class="black-text">Food $29,90</span>
@@ -43,7 +43,7 @@ const createMenu = () => {
     <div class="col s12 m6 l4">
       <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="../dist/img/pic4.jpg">
+          <img class="activator" src="./img/pic4.jpg">
         </div>
         <div class="card-content">
         <span class="black-text">Food $34,90</span>
@@ -54,7 +54,7 @@ const createMenu = () => {
     <div class="col s12 m6 l4">
       <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="../dist/img/pic5.jpg">
+          <img class="activator" src="./img/pic5.jpg">
         </div>
         <div class="card-content">
         <span class="black-text">Food $39,90</span>
@@ -65,7 +65,7 @@ const createMenu = () => {
     <div class="col s12 m6 l4">
       <div class="card small">
         <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="../dist/img/pic6.jpg">
+          <img class="activator" src="./img/pic6.jpg">
         </div>
         <div class="card-content">
         <span class="black-text">Food $44,90</span>
