@@ -1,14 +1,14 @@
 # Restaurant Page
 
 This is a project of the JavaScript curriculum at Microverse - @microverseinc.
-In this project we have to create a restaurant page. The objective is to dynamically render every page using Javascript DOM manipulation.
+In this project, we have to create a restaurant page. The objective is to dynamically render every page using Javascript DOM manipulation.
 
 ## Description
 - This is a page with a fixed menu bar and a footer. 
-- There are 3 menu choices: Home which is the default, Menu and Contact
-- Each menu choice renders part of the page and inserts it into the DOM tree
+- There are 3 menu choices: Home which is the default, Menu, and Contact.
+- Each menu choice renders part of the page and inserts it into the DOM tree.
 - The page is fully responsive.
-- In small sizes the menu is replaced by a burger which opens a sidenav with the same choices.
+- In small sizes, the menu is replaced by a burger that opens a sidenav with the same choices.
 
 ## Screenshots
 
@@ -39,7 +39,7 @@ In this project we have to create a restaurant page. The objective is to dynamic
 
 ## Live Demo
 
-[Live Demo Link](https://macnick.github.io/Restaurant-Page/dist/index.html)
+[Live Demo Link](https://macnick.github.io/Restaurant-Page/)
 
 ## Dependencies
 
@@ -76,7 +76,7 @@ To get a local copy up and running follow these simple steps.
 - Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos-26a55412a/)
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/issues).
 
