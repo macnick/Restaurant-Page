@@ -13,7 +13,7 @@ const createMenu = () => {
           <img class="activator" src="./img/pic1.jpg">
         </div>
         <div class="card-content">
-          <span class="black-text">Food $22,90</span>
+          <span class="black-text">Food $22.90</span>
           <p class="grey-text text-darken-3">Lorem Ipsum is simply dummy text.</p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const createMenu = () => {
           <img class="activator" src="./img/pic2.jpg">
         </div>
         <div class="card-content">
-          <span class="black-text">Food $25,90</span>
+          <span class="black-text">Food $25.90</span>
           <p class="grey-text text-darken-3">Lorem Ipsum is simply dummy text.</p>
         </div>
       </div>
@@ -35,7 +35,7 @@ const createMenu = () => {
           <img class="activator" src="./img/pic3.jpg">
         </div>
         <div class="card-content">
-        <span class="black-text">Food $29,90</span>
+        <span class="black-text">Food $29.90</span>
         <p class="grey-text text-darken-3">Lorem Ipsum is simply dummy text.</p>
         </div>
       </div>
@@ -46,7 +46,7 @@ const createMenu = () => {
           <img class="activator" src="./img/pic4.jpg">
         </div>
         <div class="card-content">
-        <span class="black-text">Food $34,90</span>
+        <span class="black-text">Food $34.90</span>
         <p class="grey-text text-darken-3">Lorem Ipsum is simply dummy text.</p>
         </div>
       </div>
@@ -57,7 +57,7 @@ const createMenu = () => {
           <img class="activator" src="./img/pic5.jpg">
         </div>
         <div class="card-content">
-        <span class="black-text">Food $39,90</span>
+        <span class="black-text">Food $39.90</span>
         <p class="grey-text text-darken-3">Lorem Ipsum is simply dummy text.</p>
         </div>
       </div>
@@ -68,7 +68,7 @@ const createMenu = () => {
           <img class="activator" src="./img/pic6.jpg">
         </div>
         <div class="card-content">
-        <span class="black-text">Food $44,90</span>
+        <span class="black-text">Food $44.90</span>
         <p class="grey-text text-darken-3">Lorem Ipsum is simply dummy text.</p>
         </div>
       </div>
