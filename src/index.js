@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
-import '../node_modules/materialize-css/dist/css/materialize.min.css';
-import '../node_modules/materialize-css/dist/js/materialize.min.js';
+import '../node_modules/@materializecss/materialize/dist/css/materialize.min.css';
+import '../node_modules/@materializecss/materialize/dist/js/materialize.min.js';
 import '../dist/css/style.css';
 import { createPage, updatePage } from './modules/createPage';
 
