@@ -1,10 +1,11 @@
 # Restaurant Page
 
 This is a project of the JavaScript curriculum at Microverse - @microverseinc.
-In this project, we have to create a restaurant page. The objective is to dynamically render every page using Javascript DOM manipulation.
+In this project, we have to create a simple restaurant page. The objective is to dynamically render every page using Javascript DOM manipulation.
 
 ## Description
-- This is a page with a fixed menu bar and a footer. 
+
+- This is a page with a fixed menu bar and a footer.
 - There are 3 menu choices: Home which is the default, Menu, and Contact.
 - Each menu choice renders part of the page and inserts it into the DOM tree.
 - The page is fully responsive.
@@ -13,12 +14,15 @@ In this project, we have to create a restaurant page. The objective is to dynami
 ## Screenshots
 
 ### Big Screen on menu
+
 <img src="dist/img/big.jpg" alt="Big screen on menu" >
 
 ### Medium Screen
+
 <img src="dist/img/medium.jpg" alt="Medium screen on menu" >
 
 ### Small Screen with sidenav open
+
 <img src="dist/img/smallwsidnav.jpg" alt="Small screen on contact with sidenav open">
 
 ## Built With
@@ -26,7 +30,7 @@ In this project, we have to create a restaurant page. The objective is to dynami
 - HTML
   - HTML5 semantic elements
 - CSS3
-  - Materialize front-end framework 
+  - Materialize front-end framework
 - Dev Tools
   - npm
   - Webpack
@@ -58,10 +62,10 @@ In this project, we have to create a restaurant page. The objective is to dynami
 
 To get a local copy up and running follow these simple steps.
 
-1. Clone the project 
-``` git clone https://github.com/macnick/Restaurant-Page.git ```
-2. Install dependencies ``` npm install ```
-3. Run script (Production Mode) ``` npm run build ```
+1. Clone the project
+   `git clone https://github.com/macnick/Restaurant-Page.git`
+2. Install dependencies `npm install`
+3. Run script (Production Mode) `npm run build`
 
 ### Prerequisites
 
@@ -74,12 +78,12 @@ To get a local copy up and running follow these simple steps.
 - Github: [@macnick](https://github.com/macnick)
 - Twitter: [@mac_experts](https://twitter.com/mac_experts)
 - Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos-26a55412a/)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/issues).
-
 
 1. Fork it (https://github.com/macnick/Restaurant-Page/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
