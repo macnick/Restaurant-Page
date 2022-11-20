@@ -9,7 +9,7 @@ In this project, we have to create a simple restaurant page. The objective is to
 - There are 3 menu choices: Home which is the default, Menu, and Contact.
 - Each menu choice renders part of the page and inserts it into the DOM tree.
 - The page is fully responsive.
-- In small sizes, the menu is replaced by a burger that opens a sidenav with the same choices.
+- In small sizes, the menu is replaced by a burger menu that opens a sidenav with the same choices.
 
 ## Screenshots
 
