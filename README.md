@@ -60,7 +60,7 @@ In this project, we have to create a simple restaurant page. The objective is to
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running follow these simple steps:
 
 1. Clone the project
    `git clone https://github.com/macnick/Restaurant-Page.git`
