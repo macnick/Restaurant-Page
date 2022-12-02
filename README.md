@@ -1,6 +1,6 @@
 # Restaurant Page
 
-This is a project of the JavaScript curriculum at Microverse - @microverseinc.
+This is a project for the JavaScript curriculum at Microverse - @microverseinc.
 In this project, we have to create a simple restaurant page. The objective is to dynamically render every page using Javascript DOM manipulation.
 
 ## Description
