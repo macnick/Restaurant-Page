@@ -5,7 +5,7 @@ In this project, we have to create a simple restaurant page. The objective is to
 
 ## Description
 
-- This is a page with a fixed menu bar and a footer.
+- This page has fixed menu bar and footer.
 - There are 3 menu choices: Home which is the default, Menu, and Contact.
 - Each menu choice renders part of the page and inserts it into the DOM tree.
 - The page is fully responsive.
