@@ -62,7 +62,7 @@ In this project, we have to create a simple restaurant page. The objective is to
 
 To get a local copy up and running follow these three simple steps:
 
-1. Clone the project using this command:
+1. Clone the project using this command in your terminal
    `git clone https://github.com/macnick/Restaurant-Page.git`
 2. Install dependencies `npm install`
 3. Run script (Production Mode) `npm run build`
