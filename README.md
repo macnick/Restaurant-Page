@@ -69,7 +69,7 @@ To get a local copy up and running follow these three simple steps:
 
 ### Prerequisites
 
-- npm 6.14.2
+- npm 6.14.2 or later
 
 ## Authors
 
