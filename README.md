@@ -73,7 +73,7 @@ To get a local copy up and running follow these three simple steps:
 
 ## Authors
 
-👤 **Author1**
+👤 **Nick Haralampopoulos**
 
 - Github: [@macnick](https://github.com/macnick)
 - Twitter: [@mac_experts](https://twitter.com/mac_experts)
