@@ -83,7 +83,7 @@ To get a local copy up and running follow these three simple steps:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/issues).
+Feel free to check the [issues page](https://github.com/macnick/Restaurant-Page/issues)
 
 1. Fork it (https://github.com/macnick/Restaurant-Page/fork)
 2. Create your feature branch (git checkout -b my-new-feature)
