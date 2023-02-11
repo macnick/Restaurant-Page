@@ -78,7 +78,7 @@ To get a local copy up and running follow these three simple steps:
 - Github: [@macnick](https://github.com/macnick)
 - Twitter: [@mac_experts](https://twitter.com/mac_experts)
 - Linkedin: [Nick Haralampopoulos](https://www.linkedin.com/in/nick-haralampopoulos/)
-- Portfolio: [nickharas.com]()
+- Portfolio: [nickharas.com](https://nickharas.com/portfolio/)
 
 ## 🤝 Contributing
 
