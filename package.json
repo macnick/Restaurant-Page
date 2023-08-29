@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/macnick/Restaurant-Page#readme",
   "devDependencies": {
-    "@materializecss/materialize": "^1.0.0",
+    "@materializecss/materialize": "^1.1.0",
     "css-loader": "^5.2.6",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.2.0",
